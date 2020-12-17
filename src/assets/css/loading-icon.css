@@ -1,0 +1,12 @@
+.sweet-loading {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    top: 25%;
+}
+
+.loading {
+    opacity: .4;
+    z-index: -1000;
+}

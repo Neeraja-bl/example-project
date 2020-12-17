@@ -1,0 +1,150 @@
+.root-container .root__main-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    @media only screen and (min-width: 992px) {
+        max-width: 1170px;
+    }
+}
+
+.root-container .root__main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 65px 25px 0;
+}
+
+.root-container .root__main-content__side {
+    flex: 1 1 175px;
+}
+
+.root-container .root__main-content__main {
+    flex: 1 1 600px;
+    max-width: 67%;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #2d0054;
+}
+
+.bb-sidebar {
+    max-width: 70%;
+}
+
+bb-sidebar .sidebar-menu__container,
+.bb-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bb-sidebar .sidebar-menu__button {
+    display: flex;
+    border: none;
+    color: white;
+    background-color: #2d0054;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 3px;
+    font-weight: 200;
+    font-size: 15px;
+    height: 47px;
+    line-height: 18px;
+}
+
+.bb-header.header__page-header {
+    margin-bottom: 38px;
+    padding-left: 10px;
+    border-left: 3px solid #2d0054;
+}
+
+.bb-header {
+    margin-bottom: 50px;
+}
+
+.item__header {
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.item__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d0054;
+    line-height: 2;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bb-primary-button button {
+    min-width: 140px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2d0054;
+    border-color: hsl(272, 100%, 11%);
+}
+
+.accordion-btn {
+    border: none !important;
+}
+
+.bb-primary-button button {
+    min-width: 140px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.card {
+    margin: 30px 0;
+}
+
+.bb-form {
+    width: 40%;
+}
+
+.Header {
+    border-bottom: 39px solid #f3f3f3;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.logout-link {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d0054;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+.accordion > .card:not(:last-of-type) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}

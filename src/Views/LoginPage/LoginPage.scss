@@ -1,0 +1,56 @@
+.img-background {
+  width: 899px;
+  height: 603px;
+  background-repeat: no-repeat;
+  z-index: -1000;
+  background-size: contain;
+  position: absolute;
+  top: 63%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reset-password {
+  font-weight: bold !important;
+  text-transform: initial !important;
+}
+
+.card-footer {
+  display: grid !important;
+}
+
+.results {
+  color: red;
+  text-align: center;
+}
+
+.login-btn {
+  color: white !important;
+  padding: 10px !important;
+  width: 100% !important;
+  margin: auto !important;
+  background: #2d0054 !important;
+}
+.section {
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.error {
+  color: red;
+}
+
+.input {
+  background-color: aqua;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.makeStyles-container-1 {
+  padding-top: 0 !important;
+}

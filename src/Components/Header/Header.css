@@ -1,0 +1,11 @@
+.Header {
+  font-family: cursive;
+  letter-spacing: 3px;
+  padding: 10px;
+  border-top: 39px solid #444344;
+}
+
+.img {
+  padding: 10px 11px 10px 1.5%;
+  height: 100px;
+}

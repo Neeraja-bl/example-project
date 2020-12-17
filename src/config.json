@@ -1,0 +1,15 @@
+{
+    "env": {
+        "name": "production"
+    },
+    "core": {
+        "company_id": "37003",
+        "app_id": "f6b16c23",
+        "app_key": "f0bc4f65f4fbfe7b4b3b7264b655f5eb"
+    },
+    "apiServer": {
+        "api_url": "https://southderbyshire-staging.council.jrni.com",
+        "version": "v5"
+    } 
+
+}
